@@ -2,14 +2,13 @@
 
 A simple chatting app built based on aiohttp framework that has only one common chatting group.
 
-The app is build with minimal functionality. It won't save any messages to the database. It was built to be used in a setting in which secret messages are meant to be exchanged between one group of people. Because of that I only used the websockets for purpose of excahnging multiple messages between the clients, and other libraries including databases were not used. 
-
+The app is build with minimal functionality. It won't save any messages to the database. It was built to be used in a setting in which secret messages are meant to be exchanged between one group of people. Because of that I only used the websockets for purpose of excahnging multiple messages between the clients, and other libraries including databases were not used.
 ## Demo
 ![Demo](./Img/demo.png)
 ### Functionality
 - Each client can provide there names to the server at the start of the chat
 - To prevent confusion, I used a color codded printing formatting
-
+- Client can leave the chat anytime by typing 'exit'
 ## Installation
 - Clone the repository. 
 ```angular2html
