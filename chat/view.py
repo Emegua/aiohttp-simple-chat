@@ -1,9 +1,8 @@
-# aiohttpdemo_polls/views.py
 from aiohttp import web, WSMsgType
 # to store user specific data
-import aiohttp_session
+
 async def index(request):
-    print('SECRET CHAT READY')
+    # print('SECRET CHAT READY')
     ws = web.WebSocketResponse()
     await ws.prepare(request)
     # In the client side, print "Welcome to our group, if you want to continue type
