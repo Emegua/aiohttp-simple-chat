@@ -46,9 +46,6 @@ async def main():
 
 
 async def init_chat(ws):
-    strr = "\n"\
-          "i"
-
     print(f"{bcolors.OKBLUE}Welcome to our secret chat ".center(50, " "))
     print(f"{bcolors.OKBLUE}Feel free to talk about what you feel.".center(50, " "))
     print(f"{bcolors.OKBLUE}The data is not saved and you".center(50, " "))
