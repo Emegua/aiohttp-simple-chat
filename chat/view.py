@@ -2,7 +2,7 @@ from aiohttp import web, WSMsgType
 # to store user specific data
 
 async def index(request):
-    print('SECRET CHAT READY')
+    # print('SECRET CHAT READY')
     ws = web.WebSocketResponse()
     await ws.prepare(request)
     # In the client side, print "Welcome to our group, if you want to continue type
